@@ -8,7 +8,7 @@ const setCategories = null;
 const AddCategory = ({setCategories}) => {
     const [inputValue, setstate] = useState('');
 
-    const handleInputChange = ( e ) => setstate(e.target.value); //Asi cambiamos el estado
+    const handleInputChange = ( e ) => setstate(e.target.value); //Asi cambiamos el estado 
 
     const handleSubmit = (e) => {
       e.preventDefault()
